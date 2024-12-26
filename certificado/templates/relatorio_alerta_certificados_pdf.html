@@ -1,10 +1,51 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+<html lang="pt-br">
+
+ {% load custom_filters %}
+ <head>
+    <meta charset="UTF-8">
+    <title>Relatório de Certificados</title>
+    <style>
+        body { font-family: Arial, sans-serif; }
+        table { width: 100%; border-collapse: collapse; }
+        th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+        th { background-color: #f4f4f4; }
+    </style>
 </head>
 <body>
-$END$
+    <h1>Relatório de Alerta de Certificados</h1>
+    <p>Filtro aplicado: {{ situacao|title }}
+
+
+    <table>
+        <thead>
+            <tr>
+                <th>Funcionário</th>
+                <th>Certificado</th>
+                <th>Data de Realização</th>
+                <th>Validade Final</th>
+                <th>Situação</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for lancamento in lancamentos %}
+            <tr>
+                <td>{{ lancamento.funcionario.nome }}</td>
+                <td>{{ lancamento.certificado.nome }}</td>
+                <td>{{ lancamento.data_realizacao|date:"d/m/Y" }}</td>
+                <td>{{ lancamento.validade_final|date:"d/m/Y" }}</td>
+                <td>
+                    {% if lancamento.validade_final < hoje %}
+                        Expirado
+                    {% elif lancamento.validade_final <= hoje|add_days:30 %}
+                        Próximo de Vencer
+                    {% else %}
+                        Válido
+                    {% endif %}
+                </td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
 </body>
 </html>

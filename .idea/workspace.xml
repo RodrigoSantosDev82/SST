@@ -1,30 +1,91 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="83d9674e-fc9b-4e77-8653-f7aeb060fbd9" name="Changes" comment="" />
+    <list default="true" id="83d9674e-fc9b-4e77-8653-f7aeb060fbd9" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Projeto_SST.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Projeto_SST.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Procfile" beforeDir="false" afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/certificado/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/certificado/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/certificado/templates/cadastrar_certificado.html" beforeDir="false" afterPath="$PROJECT_DIR$/certificado/templates/cadastrar_certificado.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/certificado/templates/certificados_vencendo.html" beforeDir="false" afterPath="$PROJECT_DIR$/certificado/templates/certificados_vencendo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/certificado/templates/editar_certificado.html" beforeDir="false" afterPath="$PROJECT_DIR$/certificado/templates/editar_certificado.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/certificado/templates/excluir_certificado.html" beforeDir="false" afterPath="$PROJECT_DIR$/certificado/templates/excluir_certificado.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/certificado/templates/lancar_certificado.html" beforeDir="false" afterPath="$PROJECT_DIR$/certificado/templates/lancar_certificado.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/certificado/templates/lista_certificados.html" beforeDir="false" afterPath="$PROJECT_DIR$/certificado/templates/lista_certificados.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/certificado/templates/lista_lancamentos.html" beforeDir="false" afterPath="$PROJECT_DIR$/certificado/templates/lista_lancamentos.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/certificado/templates/relatorio_alerta_certificados.html" beforeDir="false" afterPath="$PROJECT_DIR$/certificado/templates/relatorio_alerta_certificados.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/certificado/templates/relatorio_alerta_certificados_pdf.html" beforeDir="false" afterPath="$PROJECT_DIR$/certificado/templates/relatorio_alerta_certificados_pdf.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/certificado/templatetags/custom_filters.py" beforeDir="false" afterPath="$PROJECT_DIR$/certificado/templatetags/custom_filters.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/certificado/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/certificado/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/funcionario/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/funcionario/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/funcionario/templates/cadastrar_cargo.html" beforeDir="false" afterPath="$PROJECT_DIR$/funcionario/templates/cadastrar_cargo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/funcionario/templates/cadastrar_colaborador.html" beforeDir="false" afterPath="$PROJECT_DIR$/funcionario/templates/cadastrar_colaborador.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/funcionario/templates/colaboradores.html" beforeDir="false" afterPath="$PROJECT_DIR$/funcionario/templates/colaboradores.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/funcionario/templates/editar_cargo.html" beforeDir="false" afterPath="$PROJECT_DIR$/funcionario/templates/editar_cargo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/funcionario/templates/editar_colaborador.html" beforeDir="false" afterPath="$PROJECT_DIR$/funcionario/templates/editar_colaborador.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/funcionario/templates/excluir_cargo.html" beforeDir="false" afterPath="$PROJECT_DIR$/funcionario/templates/excluir_cargo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/funcionario/templates/excluir_funcionario.html" beforeDir="false" afterPath="$PROJECT_DIR$/funcionario/templates/excluir_funcionario.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/funcionario/templates/homepage.html" beforeDir="false" afterPath="$PROJECT_DIR$/funcionario/templates/homepage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/funcionario/templates/lista_cargos.html" beforeDir="false" afterPath="$PROJECT_DIR$/funcionario/templates/lista_cargos.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/funcionario/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/funcionario/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime.txt" beforeDir="false" afterPath="$PROJECT_DIR$/runtime.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/scripts.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2qODyAeLrIouI5UN8XrXBIHrzR3" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "Python.admin.executor": "Run",
+    "Python.models.executor": "Run",
+    "Python.settings.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master"
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "F:/Engenharia de Software/Projeto_Django/Gerenciamento_SegurancaTrabalho/Projeto_SST"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\Engenharia de Software\Projeto_Django\Gerenciamento_SegurancaTrabalho\Projeto_SST\certificado\templates" />
+      <recent name="F:\Engenharia de Software\Projeto_Django\Gerenciamento_SegurancaTrabalho\Projeto_SST\funcionario\templates" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\Engenharia de Software\Projeto_Django\Gerenciamento_SegurancaTrabalho\Projeto_SST\certificado\templatetags" />
+      <recent name="F:\Engenharia de Software\Projeto_Django\Gerenciamento_SegurancaTrabalho\Projeto_SST\certificado" />
+      <recent name="F:\Engenharia de Software\Projeto_Django\Gerenciamento_SegurancaTrabalho\Projeto_SST" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -42,5 +103,41 @@
       <updated>1734524980140</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/certificado/views.py</url>
+          <line>44</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/empresa/settings.py</url>
+          <line>45</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/funcionario/views.py</url>
+          <line>73</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/funcionario/views.py</url>
+          <line>18</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/certificado/views.py</url>
+          <line>21</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/certificado/views.py</url>
+          <line>62</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

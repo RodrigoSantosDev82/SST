@@ -1,7 +1,7 @@
 # meu_app/templatetags/custom_filters.py
 
 from django import template
-from datetime import timedelta
+from datetime import timedelta, date
 
 register = template.Library()
 

@@ -1,10 +1,121 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> SOFTWARE DE GESTÃO SEGURANÇA DO TRABALHO</title>
+    <!-- Fonte Google -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css">
+     <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #f8f9fa;
+        }
+        header {
+            background-color: #2d3e50;
+            color: white;
+            padding: 15px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        header .logo {
+            font-size: 1.5em;
+            font-weight: bold;
+        }
+        header nav {
+            display: flex;
+            gap: 15px;
+        }
+        header nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        .container {
+            display: flex;
+        }
+        .sidebar {
+            width: 250px;
+            background-color: #1f2933;
+            color: white;
+            padding: 20px;
+            min-height: 100vh;
+        }
+        .sidebar ul {
+            list-style: none;
+            padding: 0;
+        }
+        .sidebar ul li {
+            margin: 15px 0;
+        }
+        .sidebar ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        .main {
+            flex: 1;
+            padding: 20px;
+        }
+        .dashboard {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 20px;
+        }
+        .card {
+            background-color: white;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .chart {
+            height: 200px;
+            background-color: #e9ecef;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 8px;
+        }
+        .filters {
+            margin-top: 20px;
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 10px;
+        }
+        .filter {
+            background-color: white;
+            padding: 10px;
+            border-radius: 8px;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+        }
+    </style>
 </head>
 <body>
+<header>
+        <div class="logo">SOFTWARE DE GESTÃO SEGURANÇA DO TRABALHO</div>
+        <nav>
+           <a href="{% url 'certificados_vencendo' %}">Dashboard</a>
+            <a href="{% url 'lista_colaboradores' %} ">Colaboradores</a>
+            <a href="{% url 'lista_cargos' %} ">Cargos</a>
+            <a href="{% url 'lista_certificados' %}">Certificados</a>
+            <a href="{% url 'lancar_certificado' %}">Lançar Certificados</a>
+            <a href="{% url 'relatorio_alerta_certificados' %}">Relatórios</a>
+        </nav>
+</header>
+
+
+<script>
+    // Aguarda 2 segundos e redireciona para outra página
+    setTimeout(function() {
+        window.location.href = "{% url 'certificados_vencendo' %}"; // Substitua pelo URL desejado
+    }, 1000);
+</script>
 
 </body>
 </html>

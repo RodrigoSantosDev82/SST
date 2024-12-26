@@ -1,10 +1,31 @@
-<!DOCTYPE html>
-<html lang="en">
+{% extends 'base.html' %}
+
+{% block content %}
+
+ <!DOCTYPE html>
+ <html>
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <title>Cadastrar Certificado</title>
 </head>
 <body>
-$END$
+    <h1>Cadastrar Certificado</h1>
+    <form method="post">
+        {% csrf_token %}
+
+        <div>
+            <label for="{{ form.nome.id_for_label }}">Nome do Certificado</label>
+            {{ form.nome }}  <!-- Renderiza o campo nome do certificado -->
+        </div>
+
+        <div>
+            <label for="{{ form.validade_meses.id_for_label }}">Validade (meses)</label>
+            {{ form.validade_meses }}  <!-- Renderiza o campo validade em meses -->
+        </div>
+
+        <button type="submit">Salvar</button>
+    </form>
 </body>
 </html>
+{% endblock %}
+
+
