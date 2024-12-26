@@ -52,6 +52,7 @@ setuptools==75.6.0
 six==1.17.0
 sqlparse==0.5.3
 svglib==1.5.1
+sudo==1.0.0
 template==0.7.6
 tenacity==9.0.0
 tinycss2==1.4.0
