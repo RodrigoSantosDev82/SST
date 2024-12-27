@@ -85,14 +85,16 @@ DATABASES = {
     }
 }
 
-import dj_database_url
 import os
+import dj_database_url
 
-DATABASES_URL = os.getenv("DATABASE_URL")
-    if DATABASES_URL:
-        DATABASES = {
-            'degfault': dj_database_url.config(default=DATABASES_URL,conn_max_age=1800)
-        }
+DATABASES_URL = os.getenv("DATABASE_URL")  # Obtém a URL do banco de dados a partir da variável de ambiente
+if DATABASES_URL:
+    DATABASES = {
+        'default': dj_database_url.config(default=DATABASES_URL, conn_max_age=1800)
+    }
+else:
+    raise ValueError("A variável de ambiente 'DATABASE_URL' não está definida.")
 
 
 
