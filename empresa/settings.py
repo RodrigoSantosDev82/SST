@@ -93,8 +93,7 @@ if DATABASES_URL:
         'default':{ dj_database_url.config(default=DATABASES_URL, conn_max_age=1800)
          }
     }
-else:
-    raise ValueError("A variável de ambiente 'DATABASE_URL' não está definida.")
+
 # Password validation
 # https://docs.djangoproject.com/en/5.1/ref/settings/#auth-password-validators
 
