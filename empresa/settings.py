@@ -87,11 +87,16 @@ DATABASES = {
 
 import dj_database_url
 import os
-DATABASES_URL = os.getenv("DATABASE_URL")
-if DATABASES_URL: {
-    'degfault': dj_database_url.config(default=DATABASES_URL,conn_max_age=1800)
 
-}
+DATABASES_URL = os.getenv("DATABASE_URL")
+    if DATABASES_URL:
+        DATABASES = {
+            'degfault': dj_database_url.config(default=DATABASES_URL,conn_max_age=1800)
+        }
+
+
+
+
 # Password validation
 # https://docs.djangoproject.com/en/5.1/ref/settings/#auth-password-validators
 

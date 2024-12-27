@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="83d9674e-fc9b-4e77-8653-f7aeb060fbd9" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nixpacks.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/empresa/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/empresa/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,17 +35,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "Python.admin.executor": "Run",
-    "Python.models.executor": "Run",
-    "Python.settings.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "F:/Engenharia de Software/Projeto_Django/Gerenciamento_SegurancaTrabalho/Projeto_SST"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;Python.admin.executor&quot;: &quot;Run&quot;,
+    &quot;Python.models.executor&quot;: &quot;Run&quot;,
+    &quot;Python.settings.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;F:/Engenharia de Software/Projeto_Django/Gerenciamento_SegurancaTrabalho/Projeto_SST&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\Engenharia de Software\Projeto_Django\Gerenciamento_SegurancaTrabalho\Projeto_SST\certificado\templates" />
