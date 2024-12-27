@@ -1,1 +1,1 @@
-web: gunicorn empresa:app
+web: python manage.py  migrate && gunicorn empresas.wsgi --log-file-
