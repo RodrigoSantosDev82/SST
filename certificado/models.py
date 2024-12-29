@@ -9,6 +9,7 @@ import os
 class Certificado(models.Model):
     nome = models.CharField(max_length=255)  # Nome do Certificado
     validade_meses = models.IntegerField()  # Validade em meses
+    colaborador_id = models.CharField(max_length=200, null=True, blank=True)
     
 
     def __str__(self):
