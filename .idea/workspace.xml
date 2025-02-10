@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="83d9674e-fc9b-4e77-8653-f7aeb060fbd9" name="Changes" comment="" />
+    <list default="true" id="83d9674e-fc9b-4e77-8653-f7aeb060fbd9" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/certificado/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/certificado/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/empresa/Procfile" beforeDir="false" afterPath="$PROJECT_DIR$/empresa/Procfile" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,6 +53,7 @@
       <recent name="F:\Engenharia de Software\Projeto_Django\Gerenciamento_SegurancaTrabalho\Projeto_SST\funcionario\templates" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\Engenharia de Software\Projeto_Django\Gerenciamento_SegurancaTrabalho\Projeto_SST\empresa" />
       <recent name="F:\Engenharia de Software\Projeto_Django\Gerenciamento_SegurancaTrabalho\Projeto_SST\certificado\templatetags" />
       <recent name="F:\Engenharia de Software\Projeto_Django\Gerenciamento_SegurancaTrabalho\Projeto_SST\certificado" />
       <recent name="F:\Engenharia de Software\Projeto_Django\Gerenciamento_SegurancaTrabalho\Projeto_SST" />
@@ -104,6 +109,16 @@
           <url>file://$PROJECT_DIR$/certificado/views.py</url>
           <line>62</line>
           <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/certificado/models.py</url>
+          <line>16</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/certificado/views.py</url>
+          <line>22</line>
+          <option name="timeStamp" value="13" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

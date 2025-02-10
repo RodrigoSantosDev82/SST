@@ -9,14 +9,10 @@ import os
 class Certificado(models.Model):
     nome = models.CharField(max_length=255)  # Nome do Certificado
     validade_meses = models.IntegerField()  # Validade em meses
+    colaborador_id = models.CharField(max_length=255, null=True)
 
     def __str__(self):
         return f"{self.nome} - {self.validade_meses} meses"
-
-
-
-
-
 
 def upload_to_funcionario(instance, filename):
     # Obtém o nome do funcionário e nome do certificado
